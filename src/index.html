@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Formulario, tailwind">
+    <meta author="Cristian Diaz">
+    <meta name="description" content="Formulario adaptable a cualquier dispositivo movil con tailwind">
     <title>Formulario</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estillos.css">
 </head>
+
 <body class="font-poppins h-screen">
     <main class=" h-full grid max-w-screen-xl mx-auto md:grid-cols-[2fr_3fr] lg:grid cols-2">
 
@@ -26,7 +30,7 @@
                 </article>
                 <div class="grid">
                     <label for="name">Nombre</label>
-                    <input for="text" id="name"  class="input-reset"></input>
+                    <input for="text" id="name" class="input-reset"></input>
                 </div>
                 <div class="grid">
                     <label for="email">Email</label>
@@ -43,9 +47,13 @@
                      hover:bg-white 
                      hover:text-black
                      hover:border-black transition-colors">Crea una cuenta</a>
-                    <a href="#" class="border border-black p-4 text-center rounded-3xl flex items-center justify-center gap-2 transition-colors hover:bg-black hover:text-white group">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="group-hover:fill-white transition-colors" >
-                            <path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path>
+                    <a href="#"
+                        class="border border-black p-4 text-center rounded-3xl flex items-center justify-center gap-2 transition-colors hover:bg-black hover:text-white group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="group-hover:fill-white transition-colors">
+                            <path
+                                d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z">
+                            </path>
                         </svg>
                         Ingresá con Google
                     </a>
@@ -59,4 +67,5 @@
         </section>
     </main>
 </body>
+
 </html>
